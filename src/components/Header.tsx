@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link, useLocation } from 'react-router-dom';
-import { Menu, X, Flower2 } from 'lucide-react';
+import { Menu, X} from 'lucide-react';
+// import { Flower2} from 'lucide-react';
 
 const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
@@ -31,11 +32,11 @@ const Header = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center space-x-2 group">
             <div className="bg-spa-pink-100 p-2 rounded-full group-hover:bg-spa-pink-200 transition-colors duration-300">
-              <Flower2 className="h-6 w-6 text-spa-pink-600" />
+              {/* <Flower2 className="h-6 w-6 text-spa-pink-600" /> */}
             </div>
             <div>
-              <h1 className="text-xl font-display font-bold text-gray-900">Serenity Spa</h1>
-              <p className="text-xs text-spa-pink-600 -mt-1">Luxury & Wellness</p>
+              <h1 className="text-xl font-display font-bold text-gray-900">Logo</h1>
+              {/* <p className="text-xs text-spa-pink-600 -mt-1">Luxury & Wellness</p> */}
             </div>
           </Link>
 
